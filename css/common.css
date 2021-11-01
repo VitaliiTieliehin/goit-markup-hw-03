@@ -1,3 +1,10 @@
+html{box-sizing: border-box;}
+
+*,
+*::before,
+*::after {
+  box-sizing:inherit;
+}
 :root{
     --title-text-color: #212121;
     --text-color:#757575;
@@ -30,7 +37,8 @@ a {text-decoration: none;
     margin-left: auto;
     margin-right:auto;
     padding-left: 15px;
-    padding-right: 15px;    
+    padding-right: 15px;  
+    /* outline: 2px solid red;   */
 
 }
 /* site logo */
@@ -53,13 +61,16 @@ a {text-decoration: none;
 }
 
 
-
+.heder-line{
+    border-bottom: 1px solid #ECECEC;
+}
 
 
 /* site nav */
 .main-nav{
     display: flex;
     align-items: center;
+    
 }
 
 .menu-nav{

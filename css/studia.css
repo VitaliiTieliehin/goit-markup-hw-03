@@ -95,7 +95,7 @@
     margin-bottom: 50px;
 
 }.work-list .item{
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 .work-list .item +.item{
     margin-left: 30px;
@@ -104,10 +104,16 @@
 
 
  /* team-section */
+ .team{
+    background: #F5F4FA;
+
+ }
 .team-list{
     display: flex;
     text-align: center;
-    padding-bottom: 94px;;
+    padding-bottom: 94px;
+    
+
 }
 .team-list .item +.item{
     margin-left: 30px;
