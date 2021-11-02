@@ -133,8 +133,7 @@ margin-right: 50px;
 
 /* adres-section */
 .adres-section{
-    padding-top: 20px;
-    padding-bottom: 60px;
+    margin-top: 20px;
     color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
@@ -144,7 +143,10 @@ margin-right: 50px;
 }
 
 /* footer-section */
-
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 .footer-link{
     color: rgba(255, 255, 255, 0.6);
 
@@ -163,7 +165,8 @@ margin-right: 50px;
 .footer-section{
     display: flex;
     background-color: #2F303A;
+    
 }
-.flog{
+/* .flog{
     display: inline-block;
-    margin-top: 60px;}
+    margin-top: 60px;} */
