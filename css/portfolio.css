@@ -16,7 +16,7 @@
 .btn-filtr{
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 
 }
 
@@ -65,9 +65,7 @@
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
 }
-.filter-picture{
-   /* margin-bottom: 20px; */
-}
+
 /* projects */
 
 .projects-title{
